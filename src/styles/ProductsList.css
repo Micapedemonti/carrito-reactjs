@@ -1,0 +1,17 @@
+.list-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap:1rem;
+}
+.img-product{
+    object-fit: contain;
+    height: 243px;
+}
+.title-product{
+    font-size: 10px;
+    font-weight: 600;
+}
